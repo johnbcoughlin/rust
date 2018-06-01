@@ -133,7 +133,6 @@ declare_features! (
 
     (active, link_llvm_intrinsics, "1.0.0", Some(29602), None),
     (active, linkage, "1.0.0", Some(29603), None),
-    (active, quote, "1.0.0", Some(29601), None),
 
     // rustc internal
     (active, rustc_diagnostic_macros, "1.0.0", None, None),
@@ -529,6 +528,7 @@ declare_features! (
     // Allows the use of `#[derive(Anything)]` as sugar for `#[derive_Anything]`.
     (removed, custom_derive, "1.0.0", Some(29644), None,
      Some("subsumed by `#[proc_macro_derive]`")),
+    (removed, quote, "1.0.0", Some(29601), None, None),
 );
 
 declare_features! (
