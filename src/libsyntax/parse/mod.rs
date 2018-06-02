@@ -18,7 +18,6 @@ use syntax_pos::{Span, SourceFile, FileName, MultiSpan};
 use errors::{Handler, ColorConfig, Diagnostic, DiagnosticBuilder};
 use feature_gate::UnstableFeatures;
 use parse::parser::Parser;
-use ptr::P;
 use symbol::Symbol;
 use tokenstream::{TokenStream, TokenTree};
 use diagnostics::plugin::ErrorMap;
